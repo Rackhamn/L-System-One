@@ -21,8 +21,8 @@ You have to give your basic rules as a string.
 ```./run.sh "F+[FF-]X++[F+FFF]FFFF-FF"```  
 And all of the output is placed into `output/*.ppm`  
   
-## Some Select Example outputs:
-More outputs can be found in the `img/` directory.  
+## Some Select Example Outputs:
+More screenshots of the outputs can be found in the `img/` directory.  
 
 ![one](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_1.png)  
 ![four](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_4.png)  
