@@ -12,6 +12,8 @@ As most classic implementation, we also use a "turtle" to draw with. It's just a
 Each rule like `F` or `X` draws a line or fills an circle with a color.  
 Rules like `-` and `+` rotates the turtle direction for the drawing.  
 
+The program outputs `*.ppm` images, and they are not viewable online but you should be able to view them on whatever OS you have.
+
 ## Some Select Example outputs:
 More outputs can be found in the `img/` directory.  
 
