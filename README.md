@@ -2,6 +2,16 @@
 Also known as Lindenmayersystem.  
 It is a recursive system built on simple replacement rules.  
 
+## Current Implementation of Rules
+Rules `F+[FF-X]` are handled procedurally and not recursively.  
+We go through all of the characters in the current state string and apply the current rules.  
+If the state is `FF` and the rule is `F+F` then state+1 would be `F+FF+F`.  
+  
+Once we have gone through all of the rules for all of the states for the given number of iterations we can go on to draw the final state onto the image.  
+As most classic implementation, we also use a "turtle" to draw with. It's just a point in space.  
+Each rule like `F` or `X` draws a line or fills an circle with a color.  
+Rules like `-` and `+` rotates the turtle direction for the drawing.  
+
 ## Some Select Example outputs:
 More outputs can be found in the `img/` directory.  
 
