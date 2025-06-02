@@ -4,7 +4,7 @@ It is a recursive system built on simple replacement rules.
 [L-System (Wikipedia)](https://en.wikipedia.org/wiki/L-system)  
 
 ## Current Implementation of Rules
-Rules `F+[FF-X]` are handled procedurally and not recursively.  
+Rules, like `F+[FF-X]`, are handled procedurally and not recursively.  
 We go through all of the characters in the current state string and apply the current rules.  
 If the state is `FF` and the rule is `F+F` then state+1 would be `F+FF+F`.  
   
