@@ -1,6 +1,7 @@
 # L-System
 Also known as Lindenmayersystem.  
 It is a recursive system built on simple replacement rules.  
+[L-System (Wikipedia)](https://en.wikipedia.org/wiki/L-system)  
 
 ## Current Implementation of Rules
 Rules `F+[FF-X]` are handled procedurally and not recursively.  
