@@ -13,14 +13,16 @@ typedef struct {
 	double x, y;
 	double angle;
 	int depth;
-} Turtle;
+} turtle_t;
 
 typedef struct {
 	unsigned char r, g, b;
-} Pixel;
+} pixel_t;
 
-Pixel image[HEIGHT][WIDTH];
+pixel_t image[HEIGHT][WIDTH];
 
+// TODO: use pixel_t instead of individual rgb components!
+// 	also add alpha and later 4*float
 void set_pixel(int x, int y, unsigned char r, unsigned char g, unsigned char b) {
 	if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT) {
 		image[y][x].r = r;
@@ -87,8 +89,10 @@ void save_ppm(const char *filename) {
 }
 
 void interpret(const char *commands, double angle_deg, double step_len, int max_depth) {
-	Turtle turtle = { WIDTH / 2, HEIGHT / 2, -90, 0}; // Start at bottom center, pointing up
-	Turtle stack[STACK_SIZE];
+	// Start at bottom center, pointing up
+	turtle_t turtle = { WIDTH / 2, HEIGHT / 2, -90, 0}; 
+	turtle_t stack[STACK_SIZE]; // TODO: use malloc instead
+
 	int sp = 0;
 
 	for (size_t i = 0; commands[i]; ++i) {
