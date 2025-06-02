@@ -29,5 +29,5 @@ More outputs can be found in the `img/` directory.
 ![thirtythree](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_33.png)  
 ![thirtyfive](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_35.png)  
 ![fortysix](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_46.png)  
-Here we can see the basis of the basic L-System rules currently implemented.  
+Here we can see the basis of the basic L-System rules implemented actually behave when nothing new is happening.  
 ![sixtyone](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_61.png)  
