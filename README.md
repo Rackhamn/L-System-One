@@ -15,6 +15,12 @@ Rules like `-` and `+` rotates the turtle direction for the drawing.
 
 The program outputs `*.ppm` images, and they are not viewable online but you should be able to view them on whatever OS you have.
 
+## Usage
+The `run.sh` file will build and run the program.  
+You have to give your basic rules as a string.  
+```./run.sh "F+[FF-]X++[F+FFF]FFFF-FF"```  
+And all of the output is placed into `output/*.ppm`  
+  
 ## Some Select Example outputs:
 More outputs can be found in the `img/` directory.  
 
