@@ -104,7 +104,12 @@ void interpret(const char *commands, double angle_deg, double step_len, int max_
 				break;
 			}
 		case 'X': {
-			draw_dot(turtle.x, turtle.y, 1, 255, 0, 0);
+			int x = rand() % 10;
+			if(x > 5) {
+				draw_dot(turtle.x, turtle.y, 1, 255, 0, 0);
+			} else {
+				draw_dot(turtle.x, turtle.y, 1, 0, 0, 255);
+			}
 		}
 			case '+':
 				turtle.angle += angle_deg;
