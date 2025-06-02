@@ -37,6 +37,7 @@ More screenshots of the outputs can be found in the `img/` directory.
 ![thirtyfour](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_34.png)  
 ![thirtyfive](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_35.png)  
 ![fortysix](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_46.png)  
+![fortyone](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_41.png)  
 ![fortyeight](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_48.png)  
 ![fivftyfour](https://github.com/Rackhamn/L-System-One/blob/main/img/lsys_img_54.png)  
 Here we can see the basis of the basic L-System rules implemented actually behave when nothing new is happening.  
